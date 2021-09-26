@@ -10,3 +10,6 @@ A project made by group of Friends to increase their value on labor market.
 - Adrian Konopnicki
 
 ### Technologies 
+- Backend: Java 17, Spring Boot
+- Frontend:
+- Mobile: 
