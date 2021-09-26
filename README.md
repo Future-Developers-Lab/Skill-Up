@@ -1,3 +1,5 @@
+<img src="https://github.com/Future-Developers-Lab/Skill-Up/blob/master/logo.png"/>
+
 # Skill Up
 ## Devjobs
 
