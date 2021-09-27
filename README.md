@@ -15,3 +15,10 @@ A project made by group of Friends to increase their value on labor market.
 - Backend: Java 17, Spring Boot
 - Frontend:
 - Mobile: 
+
+
+# USEFUL
+
+## Run Development Environment
+
+## Prettier
