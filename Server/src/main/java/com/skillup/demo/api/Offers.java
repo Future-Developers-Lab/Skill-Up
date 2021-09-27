@@ -25,7 +25,7 @@ public class Offers {
     }
 
     @RequestMapping(path = "/offers", method = RequestMethod.GET)
-    List<OfferDAO> getAllOffers(){
+    List<OfferDAO> getAllOffers() {
         return offersService.getAllOffers();
     }
 }
