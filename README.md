@@ -48,7 +48,7 @@ To configure properly you should (steps for IntelliJ IDEA Ultimate):
 4. Now in settings search write: *prettier*
 5. Select *Languages & Framework > JavaScript > "Prettier*
 
-<img src="./Readme Images/img1.png"/>
+<img src="./Readme Images/img_1.png"/>
    
 6. Now configure prettier. Notice that you have to select prettier package.
 For this purpose (if you use windows) you can find it by running "Windows + R"
@@ -56,8 +56,7 @@ and run "%appdata%". Next go to *npm > node_modules > prettier* and copy path.
 My looks like that: "C:\Users\jakub\AppData\Roaming\npm\node_modules\prettier"
 Paste it to IntelliJ. Correct configuration:
    
-![img_1.png](Readme Images/img_2.png)
-
+<img src="./Readme Images/img_2.png"/>
 
 7. In project files find *.prettierrc* file. After open you should see information:
 Do you want to use prettier config for this project, select yes and that's it.
