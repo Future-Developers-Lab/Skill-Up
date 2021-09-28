@@ -8,10 +8,10 @@ A project made by group of Friends to increase their value on labor market.
 
 ### Team - "Runtime Terror"
 
-- Piotr Patalas
-- Kamil Kałuża
-- Jakub Radzik
-- Adrian Konopnicki
+- **Piotr Patalas**
+- **Kamil Kałuża**
+- **Jakub Radzik**
+- **Adrian Konopnicki**
 
 ### Technologies
 
@@ -41,26 +41,26 @@ JavaScript, JSX, Angular, TypeScript etc.
 
 To configure properly you should (steps for IntelliJ IDEA Ultimate):
 
-1. "Ctrl + Alt + S"
-2. Go to "Plugin Section" > "Marketplace"
+1. *Ctrl + Alt + S*
+2. Go to: *Plugin Section > Marketplace*
 
 ![img.png](img.png)
    
-3. Install it and click "Apply"
-4. Now in settings search write: "prettier"
-5. Select "Languages & Framework" > "JavaScript" > "Prettier"
+3. Install it and click *Apply*
+4. Now in settings search write: *prettier*
+5. Select *Languages & Framework > JavaScript > "Prettier*
 
 ![img_1.png](img_1.png)
    
 6. Now configure prettier. Notice that you have to select prettier package.
 For this purpose (if you use windows) you can find it by running "Windows + R"
-and run "%appdata%". Next go to "npm" > "node_modules" > "prettier" and copy path.
+and run "%appdata%". Next go to *npm > node_modules > prettier* and copy path.
 My looks like that: "C:\Users\jakub\AppData\Roaming\npm\node_modules\prettier"
 Paste it to IntelliJ. Correct configuration:
    
 ![img_2.png](img_2.png)
 
-7. In project files find ".prettierrc" file. After open you should see information:
+7. In project files find *.prettierrc* file. After open you should see information:
 Do you want to use prettier config for this project, select yes and that's it.
 
-8. Format code is on "Ctrl + Alt + L" 
+8. Format code is on *Ctrl + Alt + L*
