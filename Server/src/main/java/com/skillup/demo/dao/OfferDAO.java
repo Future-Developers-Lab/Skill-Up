@@ -18,8 +18,9 @@ import javax.persistence.Id;
 public class OfferDAO {
     private static long IdCreator = 1; //temporary
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+//USE it when we prepare db
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String title;
     private String description;

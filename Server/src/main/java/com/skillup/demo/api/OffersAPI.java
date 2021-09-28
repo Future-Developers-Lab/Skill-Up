@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-public class Offers {
+public class OffersAPI {
 
     private final OffersService offersService;
 
     @Autowired
-    public Offers(OffersService offersService) {
+    public OffersAPI(OffersService offersService) {
         this.offersService = offersService;
     }
 
