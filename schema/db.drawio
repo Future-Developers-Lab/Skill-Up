@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-02T11:40:17.739Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="i3FHiZdw8pQ58LUGelwz" version="15.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-02T13:43:44.593Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="txtpABWbBwbUGNEn85cB" version="15.3.7" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1663" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1831" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,14 +46,8 @@
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CaLfvAoB0ZPA8Nj9L3GR-13" value="employment:&lt;br&gt;full-time&lt;br&gt;part-time&lt;br&gt;freelance" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="50" y="10" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="CaLfvAoB0ZPA8Nj9L3GR-14" value="type:&lt;br&gt;umowa o prace&lt;br&gt;umowa zlecenie&lt;br&gt;B2B" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="10" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="CaLfvAoB0ZPA8Nj9L3GR-19" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="840" y="120" width="250" height="300" as="geometry" />
+          <mxGeometry x="820" y="120" width="250" height="300" as="geometry" />
         </mxCell>
         <mxCell id="CaLfvAoB0ZPA8Nj9L3GR-20" value="Address" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="CaLfvAoB0ZPA8Nj9L3GR-19" vertex="1">
           <mxGeometry width="250" height="218.18181818181822" as="geometry" />
