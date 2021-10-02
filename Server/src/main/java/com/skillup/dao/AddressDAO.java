@@ -17,7 +17,7 @@ public class AddressDAO {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long Id;
+    private Long address_id;
     private String country;
     private float lng;
     private float lat;

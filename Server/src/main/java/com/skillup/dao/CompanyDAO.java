@@ -16,10 +16,21 @@ import javax.persistence.*;
 public class CompanyDAO {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String company_id;
+    private Long company_id;
     private String company_name;
     private String company_size;
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     private AddressDAO address;
     private String website;
+
+    @Override
+    public String toString() {
+        return "CompanyDAO{" +
+                "company_id=" + company_id +
+                ", company_name='" + company_name + '\'' +
+                ", company_size='" + company_size + '\'' +
+                ", address=" + address +
+                ", website='" + website + '\'' +
+                '}';
+    }
 }
