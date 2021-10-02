@@ -7,18 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Server" />
-        <module name="demo" />
+        <module name="Skill-Up" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="17" />
       <module name="Server" target="17" />
+      <module name="Skill-Up" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Server" options="-parameters" />
+      <module name="Skill-Up" options="-parameters" />
       <module name="demo" options="-parameters" />
     </option>
   </component>

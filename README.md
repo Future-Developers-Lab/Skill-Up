@@ -39,6 +39,11 @@ For this purpose we used Swagger with config: *src/main/java/com/skillup/config/
 
 <img src="./Readme Images/img_3.png"/>
 
+## Database
+Database is available at *http://localhost:8080/h2-console* with following configuration:
+
+<img src="./Readme Images/img_4.png"/>
+
 ## Prettier
 
 For style unification we use prettier - opinionated code formatter with support for:
