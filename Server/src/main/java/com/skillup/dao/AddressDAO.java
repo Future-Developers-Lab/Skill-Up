@@ -1,4 +1,4 @@
-package com.skillup.demo.dao;
+package com.skillup.dao;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,6 +14,10 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AddressDAO {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long Id;
     private String country;
     private float lng;
     private float lat;

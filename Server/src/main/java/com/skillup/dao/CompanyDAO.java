@@ -1,4 +1,4 @@
-package com.skillup.demo.dao;
+package com.skillup.dao;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
