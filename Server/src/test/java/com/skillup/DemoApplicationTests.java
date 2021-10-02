@@ -1,4 +1,4 @@
-package com.skillup.demo;
+package com.skillup;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

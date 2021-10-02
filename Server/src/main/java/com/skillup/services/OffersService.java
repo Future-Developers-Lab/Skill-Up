@@ -1,6 +1,6 @@
-package com.skillup.demo.services;
+package com.skillup.services;
 
-import com.skillup.demo.dao.OfferDAO;
+import com.skillup.dao.OfferDAO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

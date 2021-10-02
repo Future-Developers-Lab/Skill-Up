@@ -33,6 +33,12 @@ A project made by group of Friends to increase their value on labor market.
 
 ## Run Development Environment
 
+## API Documentation
+API documentation is available after running development server at: *http://localhost:8080/swagger-ui.html*
+For this purpose we used Swagger with config: *src/main/java/com/skillup/config/SpringFoxConfig.java*
+
+<img src="./Readme Images/img_3.png"/>
+
 ## Prettier
 
 For style unification we use prettier - opinionated code formatter with support for:
