@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class CompanyService {
 
-    private Logger logger = LoggerFactory.getLogger(this.getClass());
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Autowired
     private ModelMapper modelMapper;
@@ -20,14 +20,25 @@ public class CompanyService {
     @Autowired
     private CompanyRepository companyRepository;
 
-    public CompanyDTO saveCompany(CompanyDTO companyDTO) {
-        logger.info("Saved Company: " + convertToDAO(companyDTO));
-        return companyDTO;
+    public CompanyDAO saveCompany(CompanyDTO companyDTO) {
+        CompanyDAO companyToSave = convertToDAO(companyDTO);
+        return companyRepository.save(companyToSave);
     }
 
-    private CompanyDTO convertToDAO(CompanyDTO companyDTO) {
-        CompanyDAO companyDAO = modelMapper.map(companyDTO, CompanyDAO.class);
-        companyRepository.save(companyDAO);
-        return companyDTO;
+    public CompanyDAO updateCompany(Long company_id, CompanyDTO companyDTO) {
+         return companyRepository.findById(company_id).map(company -> {
+            company.setCompany_name(companyDTO.getCompany_name());
+            company.setWebsite(companyDTO.getWebsite());
+            return companyRepository.save(company);
+        })
+        .orElseGet(()->{
+            CompanyDAO companyNotExist = convertToDAO(companyDTO);
+            companyNotExist.setCompany_id(company_id);
+            return companyRepository.save(companyNotExist);
+        });
+    }
+
+    private CompanyDAO convertToDAO(CompanyDTO companyDTO) {
+        return modelMapper.map(companyDTO, CompanyDAO.class);
     }
 }
