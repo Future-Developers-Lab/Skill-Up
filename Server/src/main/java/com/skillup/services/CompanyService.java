@@ -20,6 +20,10 @@ public class CompanyService {
     @Autowired
     private CompanyRepository companyRepository;
 
+    public CompanyDAO getCompanyById(Long company_id){
+        return companyRepository.findById(company_id).get();
+    }
+
     public CompanyDAO saveCompany(CompanyDTO companyDTO) {
         CompanyDAO companyToSave = convertToDAO(companyDTO);
         return companyRepository.save(companyToSave);
@@ -33,7 +37,7 @@ public class CompanyService {
         })
         .orElseGet(()->{
             CompanyDAO companyNotExist = convertToDAO(companyDTO);
-            companyNotExist.setCompany_id(company_id);
+            companyNotExist.setId(company_id);
             return companyRepository.save(companyNotExist);
         });
     }
